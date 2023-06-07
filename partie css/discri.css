@@ -1,0 +1,356 @@
+/*partie hedeur*/
+header{
+  position: relative;
+  left: -8px;
+  top: -16px;
+  background: linear-gradient(to right,#250f63,#040c20,black);
+ 
+  width: 1357px;
+  height: 182px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+/*------------------partie navigation le serche------*/
+.logo {
+position: relative;
+top: 35px;
+right: -42px;
+width: 5cm;
+}
+.img-logo{
+  height: 100px;
+  width: 100px;
+
+}
+/* Barre de recherche large */
+.search-form-large {
+  position: absolute;
+  top: 50px;
+  left: 49%;
+  transform: translateX(-50%);/* elle socupe de la largeur*/
+  width: 600px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #13023c;
+  border-radius: 20px;
+  border-color: aqua;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.search-input-large {
+  background-color: #13023c;
+  flex: 1;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  color: aliceblue;
+  
+}
+
+.search-button-large {
+ border: none;
+  background-color: transparent;
+  cursor: pointer;
+  margin-right: 10px;
+  
+ 
+}
+.bx-search {
+
+  font-size: 30px; /* taille de la loupe */
+  color: antiquewhite;
+}
+.icone {
+  position: absolute;
+  top: 0;
+  right: -9cm;
+}
+.icone a {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 48px;/* si vous souhaitez ajouter un espace entre les icônes */
+  font-size: 30px;
+  color: aliceblue;
+}
+
+/*------------------partie navigation------*/
+nav.menue-nav {
+  position: relative;
+  top:25px;
+  left: 0%;
+  width: 100%;
+  height: 1cm;
+ 
+  background: linear-gradient(to right,#14053c,#040c20,black);
+}
+
+nav.menue-nav  ul li.btn {
+  list-style: none;/*liste pour enlever les point*/
+  display: inline-block;/*metre les menue sur une ligne */
+ 
+}
+nav.menue-nav  ul li.btn a{
+  position: relative;
+  top: 4px;
+ padding-inline:40px;
+  color: aliceblue;
+  text-decoration: none;
+  font-size: 20px;
+
+  
+}
+
+nav.menue-nav  ul li.btn a:hover {
+  text-decoration: none;
+  color: #0eb8ce; /* couleur au survol */
+}
+
+.menue-nav li:not(:last-child) {
+  position: relative;
+  top: auto;
+  border-right: 1px solid #0f0f5c; /* ligne de séparation */
+  margin-top: 0cm;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                  /***************** carte de produits **********************/
+ .dsc{
+  position: relative;
+  top: -13.64cm;
+ 
+  margin-bottom: 3cm;
+ }
+
+body {
+  margin:0;
+  background: #fbfbfb;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/********************le slider d'images**********************/
+
+.slideshow-container{
+  float: left;
+  margin-left: 1000px;
+  
+}
+
+.mySlides{
+  display:none;
+}
+
+.slideshow-container{
+ max-width: 80%;
+  position: relative;
+  margin: auto;
+}
+
+.prev, .next{
+  cursor:pointer;
+  position:absolute;
+  top:50%;
+  width:auto;
+  padding:16px;
+  margin-top: -22px;
+  color:red;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease ;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+.next{
+  right:0;
+  border-radius:3px 0 0 3px;
+}
+.prev:hover, .next:hover{
+  background-color: rgb(237, 230, 230)
+}
+
+
+.dot{
+  cursor:pointer;
+  height:15px;
+  width:15px;
+  margin:0 2px;
+  background-color: rgb(237, 230, 230);
+  border-radius: 50%;
+  display:inline-block;
+  transition: background-color 0.6s ease;
+}
+.active,.dot:hover{
+  background-color: #3f3f3f;
+}
+.fade{
+  -webkit-animation-name: fade;
+  -webkit-animation-duration:1.5s ;
+  animation-name: fade;
+  animation-duration: 1.5s;
+
+}
+
+
+/*****************************************************/
+
+.ligne{
+  background-color: rgb(237, 230, 230);
+}
+table {
+  margin-top: 0%;
+  border-collapse:collapse;
+  font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+ table,th, td {
+  order: 1px solid black;
+}
+th {
+  
+background-color:#e34040;
+color:#fff;
+}
+
+
+.product-info{
+float:right;
+margin-right:10px ;
+}
+
+  .product-info {
+  
+    width: 40%;
+  }
+  .product-info h2 {
+    font-size: 28px;
+    margin-top: 0;
+  }
+  
+  .product-info p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  /************ le prix**************/
+  .prix{
+  margin-top:500px ;
+  margin-left: 1000px;
+  }
+   /******* les etoiles ************/
+  .rating {
+    display: inline-block;/*afficher horizontalement*/
+  }
+  
+  .rating input {
+    display:none;/*rendre les element input invisible*/
+  }
+  
+  .rating label {
+    float: right;
+    width: 1em;
+    cursor: pointer;/*lorsque l'utilisateur survole les element label indiquant qu'ils son clicabl*/
+    font-size: 2em;
+    color: #ddd;
+  }
+  
+  .rating label:before {
+    content: "\2605";/*le code de l'etoil*/
+  }
+  
+  .rating input:checked ~ label {/*element label qui est preceder par input*/
+    color:#f4e815;
+  }
+  
+  .rating:not(:checked) > label:hover,
+  .rating:not(:checked) > label:hover ~ label {/*Sélectionne les éléments <label> qui sont précédés d'un élément <input> non vérifié (non sélectionné) qui se trouve dans un élément avec la classe "rating", lorsque l'utilisateur survole l'un de ces éléments <label>*/
+    color: #ff0;
+  }
+/******************quantites**********/
+  .quantity label {
+    font-size: 16px;
+    margin-right: 10px;
+  }
+  
+  .quantity input {
+    font-size: 16px;
+    width: 100px;
+    height:37px ;
+    text-align: center;
+    border-radius: 20px;
+    
+  }
+ 
+/******* ajouter au panier ****/
+ 
+.hero-btn {
+  background-color:#e34040;
+  border: 1px solid #fff;
+  color: rgb(255, 255, 255);
+  font-size: 1.2rem;
+  padding: 10px 30px;
+  text-transform: uppercase;
+  transition: all 0.3s ease-in-out;
+  border-radius: 20px;
+}
+
+.hero-btn:hover {
+  background-color: rgb(207, 1, 1);
+  color: #000000;
+  cursor: pointer;
+}
+
+h2
+{
+position:absolute ;
+  background-color: #0eb8ce;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

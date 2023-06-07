@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../partie css/discri.css">
+    
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Description du PC gamer</title>
+   
+  </head>
+  <!----------------------------->
+  <header>
+    <div class="logo">
+       <img class="img-logo" src="../image/logo/kisspng-sca-paper-packaging-and-labeling-product-company-sca-logo-svg-vector-amp-png-transparent-vector-5b91b29fc56453.5322403015362751038085.png" alt="">
+     </div>
+    
+     <form class="search-form-large">
+       <input type="text" class="search-input-large" placeholder="Rechercher...">
+       <button type="submit" class="search-button-large">
+           <a class="search" href=""><i class='bx bx-search'></i> </a>
+       </button>
+       <div class="icone">
+         <a class="user"href="./inscri.html"><i class='bx bx-user'></i></a>
+         <a class="shoping"href="user"><i class='bx bx-shopping-bag'></i>
+         </a>
+       </div>
+     
+     </form>
+       <nav class="menue-nav">
+           <ul>
+               <li class="btn">
+                 <a href="../index.html">
+                  ACCUEIL
+                 </a>
+                 </li>
+               <li class="btn">
+                   <a href="ordinateur.html">
+                     ordinateur
+                   </a>
+               </li>
+               <li class="btn">
+                   <a href="peri.html">
+                     periphirique
+                   </a>
+               </li>
+               <li class="btn">
+                   <a href="./">
+                     accessoire
+                   </a>
+              </li>
+              <li class="btn">
+               <a href="contacter.html">
+                 contacter
+               </a>
+             </li>
+             <li class="btn">
+               <a href="./partie html/bonne-affaire.html">
+                 bonne affaire
+               </a>
+             </li>
+             <li class="btn">
+               <a href="info.html">
+                 info
+               </a>
+             </li>
+           </ul>
+           
+      </nav>       
+      
+   </header>
+<body>
+  <section class="dsc">
+      <!---------- les images ------------->
+  <div class="slideshow-container">
+    <div class="mySlides fade">
+       <img src="../image/discri/LENOVOIDEAPAD .jpg" style="width: 100%">
+    </div>
+
+    <div class="mySlides fade">
+      <img src="../image/discri/LENOVO-IDEAPAD1.jpg" style="width: 100%">
+   </div>
+
+   <div class="mySlides fade">
+    <img src="../image/discri/LENOVO-IDEAPAD3.jpg" style="width: 100%">
+ </div>
+
+ <a class="prev " onclick="plusSlides(-1)">&#10094;</a>
+ <a class="next " onclick="plusSlides(1)">&#10095;</a>
+
+<br>
+<div style="text-align:center">
+<span class="dot" onclick="currentSlides(1)"></span>
+<span class="dot" onclick="currentSlides(2)"></span>
+<span class="dot" onclick="currentSlides(3)"></span>
+
+</div>
+</div>
+
+<script src="../jv-s/produits.js"></script>
+
+      <div class="product-info"><!--lensemble tableau et titre-->
+        <p>
+          LENOVO IDEAPAD 3 15IGL05 CELERON N4020<br>
+            1.1 GHZ 4G1TB HDD15.6 BUSINESS
+            BLACK</p>
+                  <!---------------------------- le tableau d'information --------------------------------->
+          <table>
+          <tr>
+            <th>Composant</th>
+            <th>Description</th>
+          </tr>
+          <tr>
+            <td>Système d'exploitation</td>
+            <td>Windows 11</td>
+          </tr>
+            <tr class="ligne">
+            <td >Processeur</td>
+            <td>Intel® Celeron® Dual-Core N4020 (1,10 GHz up to 2.80 GHz, 4Mo de mémoire cache)</td>
+         
+          </tr>
+          <tr>
+            <td>Mémoire RAM</td>
+            <td>4 Go</td>
+          </tr>
+          <tr class="ligne">
+            <td>Taille de l'écran</td>
+            <td>15.6 Pouces</td>
+    
+          </tr>
+          <tr>
+            <td>Résolution d'écran</td>
+            <td>1366 x 768</td>
+          </tr>
+          <tr class="ligne">
+            <td>Disque Dur</td>
+            <td>1 To HDD</td>
+          
+          </tr>
+          <tr>
+            <td>Carte Graphique</td>
+            <td>Intel HD Graphics</td>
+          </tr>
+          <tr class="ligne">
+            <td>Connecteurs</td>
+            <td>1x USB 2.0, 2x USB 3.2 Gen 1, 1x HDMI 1.4b, 1x prise combo casque/micro (3,5 mm), 1x lecteur de carte, 1x connecteur d'alimentation</td>
+         
+          </tr>
+          <tr>
+            <td>Couleur</td>
+            <td>Noir</td>
+          </tr>
+          <tr class="ligne">
+            <td>Garantie</td>
+            <td>1 an</td>
+            
+          </tr>
+        </table>
+      </div>
+      <div class="prix">
+        <h1> 44,900.00 DA</h1>
+          <!-------------------- les etoiles ---------------------->
+         <div class="rating">
+           <input type="radio" id="star5" name="rating" value="5"><label for="star5"></label>
+           <input type="radio" id="star4" name="rating" value="4"><label for="star4"></label>
+           <input type="radio" id="star3" name="rating" value="3"><label for="star3"></label>
+           <input type="radio" id="star2" name="rating" value="2"><label for="star2"></label>
+           <input type="radio" id="star1" name="rating" value="1"><label for="star1"></label>
+          </div>
+           <!------------------- la quantites ------------------>
+         <div class="quantity">
+           <label for="quantity"></label>
+           <input type="number" id="quantity" name="quantity" value="1" min="1">
+           <!------------------ le bouton -------------------->
+           <button id="add-to-cart" type="button" class="hero-btn">Ajouter au panier</button> 
+         
+          </div>
+        </div>
+
+      </section>
+
+
+
+
+
+
+
+
+
+
+   </body>
+
+
+
+
+
+
+
+ </html>

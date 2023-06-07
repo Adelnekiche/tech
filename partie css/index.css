@@ -1,0 +1,649 @@
+/*partie hedeur*/
+header{
+  position: relative;
+  left: -8px;
+  top: -16px;
+  background: linear-gradient(to right,#250f63,#040c20,black);
+ 
+  width: 1357px;
+  height: 182px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+/*------------------partie navigation le serche------*/
+.logo {
+position: relative;
+top: 35px;
+right: -42px;
+width: 5cm;
+}
+.img-logo{
+  height: 100px;
+  width: 100px;
+
+}
+/* Barre de recherche large */
+.search-form-large {
+  position: absolute;
+  top: 50px;
+  left: 49%;
+  transform: translateX(-50%);/* elle socupe de la largeur*/
+  width: 600px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #13023c;
+  border-radius: 20px;
+  border-color: aqua;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.search-input-large {
+  background-color: #13023c;
+  flex: 1;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  color: aliceblue;
+  
+}
+
+.search-button-large {
+ border: none;
+  background-color: transparent;
+  cursor: pointer;
+  margin-right: 10px;
+  
+ 
+}
+.bx-search {
+
+  font-size: 30px; /* taille de la loupe */
+  color: antiquewhite;
+}
+.icone {
+  position: absolute;
+  top: 0;
+  right: -9cm;
+}
+.icone a {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 48px;/* si vous souhaitez ajouter un espace entre les icônes */
+  font-size: 30px;
+  color: aliceblue;
+}
+
+/*------------------partie navigation------*/
+nav.menue-nav {
+  position: relative;
+  top:25px;
+  left: 0%;
+  width: 100%;
+  height: 1cm;
+ 
+  background: linear-gradient(to right,#14053c,#040c20,black);
+}
+
+nav.menue-nav  ul li.btn {
+  list-style: none;/*liste pour enlever les point*/
+  display: inline-block;/*metre les menue sur une ligne */
+ 
+}
+nav.menue-nav  ul li.btn a{
+  position: relative;
+  top: 4px;
+ padding-inline:40px;
+  color: aliceblue;
+  text-decoration: none;
+  font-size: 20px;
+
+  
+}
+
+nav.menue-nav  ul li.btn a:hover {
+  text-decoration: none;
+  color: #0eb8ce; /* couleur au survol */
+}
+
+.menue-nav li:not(:last-child) {
+  position: relative;
+  top: auto;
+  border-right: 1px solid #0f0f5c; /* ligne de séparation */
+  margin-top: 0cm;
+}
+/* ====================================================================================================================*/
+
+/* partie body */
+body{
+max-width:1350px;
+margin: 0px;
+
+}
+
+/* ===============================pour la promiere section partie animation =============================== */
+/* ===============================pour la promiere section partie animation=============================== */
+/* ===============================pour la promiere section partie animation =============================== */
+
+
+.sec-pro{
+  height: 41cm;
+  background: #fbfbfb;
+  margin-bottom: 3px;
+ 
+}
+#img-overlay{
+  position: absolute;
+  z-index: 2;
+  top: 175px;
+  left: -5px;
+  height: 100px;
+  width: 100px;
+  opacity: 0;
+}
+
+
+#text2,
+#text{
+  width: 12cm;
+  font-family: Roboto;
+  font-weight: 200;
+  position: relative;
+  z-index: 2;
+  color: rgb(205 186 186);
+  font-size: 3rem;
+  opacity: 0;
+
+}
+#text2{
+  top: -8cm;
+  left: 11ch;
+  }
+  #text{
+    top: -14ch;
+    left: 6ch;
+  }
+div.image img{
+  position: relative;
+  top: -16px;
+  right: 0px;
+  left: 0px;
+  height: 360px;
+  width: 1349px;
+  z-index: 1;
+}
+/* ===============================pour la promiere section =============================== */
+/* ===============================pour la promiere section =============================== */
+/* ===============================pour la promiere section =============================== */
+
+.catalogue {
+position: relative;
+top: -230px;
+margin-left: 3cm;
+margin-right: 3px;
+display: flex;
+flex-wrap: wrap; /* forcer les éléments à passer à la ligne suivante */
+
+align-items: center; /* centrer les éléments verticalement */
+gap: 0px;
+margin-top:1.5cm;
+
+
+}
+
+.produit-cont {
+text-align: center;
+ width: 269px;
+height: 10cm ;
+margin-bottom:10px;
+box-sizing: border-box;
+border-right: 1px solid #bcb9b9d9;
+margin-left: 3px;
+}
+
+
+.produit-cont:hover{
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+box-sizing: none;
+border-right:none;
+ transform: scale(1.02);
+}
+
+
+
+.produit-box {
+text-align: center;
+
+
+}
+
+
+.img-produit{
+position: relative;
+top: 56px;
+right: 0px;
+height: 186.03px;
+width: 186.03px;
+}
+.gd-lien{
+  
+  display: inline-block;
+  position: relative;
+  top: 12px;
+  left: 11px;
+  text-decoration: none;
+  text-align: start;
+  color: #3434eb;
+  font-size: 20px;
+  }
+  .pt-lien{
+    position: relative;
+    top: -1px;
+    left: -86px;
+    
+  text-decoration: none;
+  font-size: 10px;
+  color: gray;
+  text-align: left;
+  }
+  .bx{
+    font-size: 28px;
+  }
+  .icone-acat{
+    background: rgb(196, 190, 190);
+  color: aliceblue;
+  border-radius: 50%;
+  width: 10px;
+  position: relative;
+  top: 9px;
+  left: 106px;
+  font-size: 32px;
+  }
+  .icone-acat:hover{
+    background:  rgb(77, 74, 74);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+.prix {
+width: 153px;
+position: relative;
+top: 83px;
+right: -3px;
+font-size: 28px;
+margin-top: 1%;
+color: rgb(90, 86, 86);
+}
+/*____________________________________ pour la  section 2_______________________ */
+/*____________________________________ pour la  section2 _______________________ */
+/*____________________________________ pour la section2 _______________________ */
+/*____________________________________ pour la  section 2_______________________ */
+
+
+
+
+.sec{
+  height: 23cm;
+background: rgb(240, 239, 239);
+border-bottom: 1px solid #bcb9b9d9;
+}
+
+.container2 {
+position: relative;
+left: 2cm;
+width: 89%;
+display: flex;
+align-items: center;
+gap: 10px;
+}
+
+
+
+.gauche,
+.droit {
+display: flex;
+flex-direction: column;
+align-items: center;
+
+
+}
+
+.gauche div,
+.droit div {
+background: white;
+width: 269.22px;
+height: 360.34px;
+margin-bottom: 10px; /* espace de 10px entre les deux divs dans chaque div gauche et droite */
+}
+
+.img-produit2{
+position: relative;
+  top: 56px;
+  left: 31px;
+  width: 205.75px;
+  height: 205.75px;
+}
+
+
+.prix2{
+font-size: 26px;
+position: relative;
+top:28px;
+left: 0.56cm;
+color: rgb(90, 86, 86);
+
+}
+
+.grand-div {
+position: relative;
+top: 10px;
+width: 617px;
+height: 761px;
+border: 3px;
+background: white;
+gap: 10px; /* espace de 10px entre le grand div et les divs gauche et droite */
+border-bottom: 1px solid #bcb9b9d9;
+}
+.grand-div:hover{
+
+border-bottom: 1px solid #1b1919d9;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.gd-lien2,
+.gd-gr-lien2{
+font-family: inherit;
+display: inline-block;
+  position: relative;
+  top:  43px;
+  left: 15px;
+  text-decoration: none;
+  text-align: start;
+  color: #3434eb;
+  font-size: 22px;
+
+}
+.pt-lien2,
+.pt-gr-lien2{
+position: relative;
+top: 19px;
+left: 17px;
+text-decoration: none;
+font-size:  .857em;
+color: gray;
+text-align: left;
+}
+.img-grand-produit2{
+position: relative;
+top: 55px;
+left: 35px;
+width: 569.58px;
+height: 540.58px;
+
+}
+.prix-gr2{
+position: relative;
+top: 77px;
+left: 32px;
+font-size: 38px;
+margin-top: 1%;
+color: rgb(90, 86, 86);
+}
+
+.produit-cont2:hover{
+
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+}
+.icone-acat2{
+background: rgb(241, 241, 241);
+color: rgba(241, 12, 12, 0.753);
+border-radius: 45%;
+position: relative;
+top: -44px;
+left: 224px;
+font-size: 2rem;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.icone-acat2:hover{
+background:  rgb(57, 59, 57);
+color: white;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+}
+.icone-gr-acat2{
+padding: 11px;
+margin-top: -16px;
+margin-left: 32px;
+border-radius: 4em;
+font-size: large;
+position: relative;
+top: 0px;
+left: 41ch;
+width: 177px;
+height: 15px;
+background: red;
+}
+.ajouter{
+  
+  
+  top: -10px;
+  left: 0ch;
+}
+.ajouter-txt{
+  
+  position: relative;
+  top: -5px;
+  left: 0ch;
+}
+.ajouter-txt,
+.ajouter{
+font-size: 17px;
+position: relative;
+
+text-decoration: none;
+font-family: Georgia, 'Times New Roman', Times, serif;
+color: white;
+}
+.icone-gr-acat2:hover{
+background: #d11c1c;
+box-shadow: 0 0 10px red;
+}
+
+
+/*____________________________________ pour la  section 3_______________________ */
+/*____________________________________ pour la  section3 _______________________ */
+/*____________________________________ pour la section3_______________________ */
+/*____________________________________ pour la  section 3_______________________ */
+
+
+.foter{
+  position: relative;
+width: 100%;
+height: 78ch;
+background: rgb(227 227 227);
+margin-top: -17px;
+}
+.entet{
+background: #2d2c5e;
+display: inline-block;
+width: 100%;
+height: 68px;
+
+}
+.flay i{
+margin-left: 81px;
+margin-top: 23px;
+font-size: 31px;
+color: white;
+
+}
+.span{
+color: rgb(214, 218, 221);
+font-size: medium;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.titre{
+margin-left: 128px;
+margin-top: -31px;
+font-size: 22px;
+color: aliceblue;
+
+}
+
+.search-form-large1 {
+position: relative;
+top:-98px;
+left: 77%;
+transform: translateX(-50%);
+width: 441px;
+height: 40px;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #13023c;
+border-radius: 20px;
+box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.search-input-large1 {
+border: none;
+width: auto;
+flex: 1;
+padding: 11px 38px;
+font-size: 14px;
+text-align: start;
+color: rgb(13, 13, 14);
+border-radius: 23px;
+background: rgb(220, 219, 219);
+}
+
+.search-button-large1 {
+ border: none;
+background: transparent;
+cursor: pointer;
+margin-right: 10px;
+border-radius: 0%;
+color: aqua;
+}
+.search-button-large1:hover{
+
+color: rgb(88, 90, 92);
+}
+.titre1{
+width: 6cm;
+font-size: 17px;
+font-family: initial;
+position: relative;
+top: -44px;
+left: 59ch;
+color: aliceblue;
+}
+.lien-foter{
+position: relative;
+top: 32px;
+left: 18cm;
+width: 32%;
+display: flex;
+flex-direction: column;
+gap: 15px;
+
+
+
+
+}
+.num-fouter{
+position: relative;
+top: -270px;
+left: 12px;
+width: 40%;
+}
+.lein{
+margin-top: 0cap;
+text-decoration: none;
+font-size: large;
+text-align: start;
+color: rgb(32, 31, 31);
+}
+.nompage{
+position: relative;
+left: 5px;
+top: -17px;
+font-size: larger;
+}
+.consiel
+{
+position: relative;
+top: -85px;
+left: 158px;
+font-size: 14px;
+font-family: 'Courier New', Courier, monospace;
+color: black;
+}
+.num{
+width: 12cm;
+margin-top: -92px;
+margin-left: 153PX;
+font-size: 1.65rem;
+font-family: system-ui;
+color: #322f2f;
+font-style: italic;
+
+}
+.adresse-titre{
+font-size: 1rem;
+font-family: 'Courier New', Courier, monospace;
+color: black;
+margin-top: -15px;
+margin-left: 2cm;
+width: auto;
+}
+
+.text-adresse{
+font-size: 1rem;
+font-family: 'Courier New', Courier, monospace;
+color: black;
+margin-top: -8px;
+margin-left: 2cm;
+}
+.casque i{
+font-size: 63px;
+position: relative;
+top: -1px;
+left: 69px;
+color: #1a1a1c;
+}
+.media a{
+position: relative;
+top: -211px;
+left: -7px;
+text-decoration: none;
+display: inline-flex;
+justify-content: center;
+align-items: center;
+width: 2rem;
+height: 2rem;
+background: transparent;
+border: 0.2rem solid #999695;
+border-radius: 50%;
+font-size: 20px;
+color: #999695;
+margin: -13px -65px -65px 92px;
+transition: .5s ease;
+}
+.media a:hover{
+  background:linear-gradient(gray,rgb(3, 3, 64));
+  color: white;
+  border-color: rgb(6, 4, 74);
+  box-shadow: #0d0d0d;
+}
+a.insta:hover{
+background:linear-gradient(rgb(249, 6, 6),yellow);;
+color: wheat;
+box-shadow: black;
+border-color:rgb(241, 110, 29);
+}
+a.twite:hover{
+color: #2f3edf;
+border-color: #2f3edf;
+background: white;
+}
